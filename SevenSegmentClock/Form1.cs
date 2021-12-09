@@ -766,12 +766,12 @@ namespace SevenSegmentClock
 
         private void Meridiem(string state)
         {
-            if (state == "am")
+            if (state == "AM")
             {
                 labelMeridiemAM.ForeColor = RedOn;
                 labelMeridiemPM.ForeColor = RedOff;
             }
-            else if (state == "pm")
+            else if (state == "PM")
             {
                 labelMeridiemAM.ForeColor = RedOff;
                 labelMeridiemPM.ForeColor = RedOn;
