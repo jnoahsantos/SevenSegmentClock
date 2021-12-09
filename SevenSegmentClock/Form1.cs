@@ -1490,5 +1490,10 @@ namespace SevenSegmentClock
         {
 
         }
+
+        private void btnMin1A_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
