@@ -1,0 +1,10 @@
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Debug\SevenSegmentClock.exe.config
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Debug\SevenSegmentClock.exe
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Debug\SevenSegmentClock.pdb
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.Form1.resources
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.Properties.Resources.resources
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.exe
+C:\Users\Computer\Desktop\csharp\SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Debug\SevenSegmentClock.pdb
