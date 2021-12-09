@@ -766,7 +766,7 @@ namespace SevenSegmentClock
             this.labelMeridiemAM.BackColor = System.Drawing.Color.Transparent;
             this.labelMeridiemAM.Font = new System.Drawing.Font("Segoe UI Historic", 22F);
             this.labelMeridiemAM.ForeColor = System.Drawing.Color.DimGray;
-            this.labelMeridiemAM.Location = new System.Drawing.Point(915, 245);
+            this.labelMeridiemAM.Location = new System.Drawing.Point(876, 228);
             this.labelMeridiemAM.Name = "labelMeridiemAM";
             this.labelMeridiemAM.Size = new System.Drawing.Size(64, 41);
             this.labelMeridiemAM.TabIndex = 7;
@@ -793,7 +793,7 @@ namespace SevenSegmentClock
             this.labelMeridiemPM.BackColor = System.Drawing.Color.Transparent;
             this.labelMeridiemPM.Font = new System.Drawing.Font("Segoe UI Historic", 22F);
             this.labelMeridiemPM.ForeColor = System.Drawing.Color.DimGray;
-            this.labelMeridiemPM.Location = new System.Drawing.Point(917, 284);
+            this.labelMeridiemPM.Location = new System.Drawing.Point(878, 267);
             this.labelMeridiemPM.Name = "labelMeridiemPM";
             this.labelMeridiemPM.Size = new System.Drawing.Size(62, 41);
             this.labelMeridiemPM.TabIndex = 7;
@@ -2704,7 +2704,7 @@ namespace SevenSegmentClock
             this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCloseForm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseForm.ForeColor = System.Drawing.Color.Black;
-            this.btnCloseForm.Location = new System.Drawing.Point(922, 12);
+            this.btnCloseForm.Location = new System.Drawing.Point(879, 12);
             this.btnCloseForm.Name = "btnCloseForm";
             this.btnCloseForm.Size = new System.Drawing.Size(57, 31);
             this.btnCloseForm.TabIndex = 6;
@@ -2717,7 +2717,7 @@ namespace SevenSegmentClock
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.ClientSize = new System.Drawing.Size(985, 391);
+            this.ClientSize = new System.Drawing.Size(948, 391);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
