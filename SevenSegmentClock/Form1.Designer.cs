@@ -75,7 +75,6 @@ namespace SevenSegmentClock
             this.btnSec1D = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnBlinker = new System.Windows.Forms.Button();
-            this.btnCloseForm = new System.Windows.Forms.Button();
             this.labelMeridiemAM = new System.Windows.Forms.Label();
             this.btnHourFormat = new System.Windows.Forms.Button();
             this.labelMeridiemPM = new System.Windows.Forms.Label();
@@ -225,6 +224,7 @@ namespace SevenSegmentClock
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.btnCloseForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHrs2F
@@ -760,21 +760,6 @@ namespace SevenSegmentClock
             this.btnBlinker.UseVisualStyleBackColor = false;
             this.btnBlinker.Click += new System.EventHandler(this.btnBlinker_Click);
             // 
-            // btnCloseForm
-            // 
-            this.btnCloseForm.BackColor = System.Drawing.Color.LightPink;
-            this.btnCloseForm.FlatAppearance.BorderSize = 0;
-            this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCloseForm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCloseForm.ForeColor = System.Drawing.Color.Black;
-            this.btnCloseForm.Location = new System.Drawing.Point(922, 12);
-            this.btnCloseForm.Name = "btnCloseForm";
-            this.btnCloseForm.Size = new System.Drawing.Size(57, 31);
-            this.btnCloseForm.TabIndex = 6;
-            this.btnCloseForm.Text = "Close";
-            this.btnCloseForm.UseVisualStyleBackColor = false;
-            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
-            // 
             // labelMeridiemAM
             // 
             this.labelMeridiemAM.AutoSize = true;
@@ -793,10 +778,10 @@ namespace SevenSegmentClock
             this.btnHourFormat.BackColor = System.Drawing.Color.LightPink;
             this.btnHourFormat.FlatAppearance.BorderSize = 0;
             this.btnHourFormat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHourFormat.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHourFormat.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHourFormat.Location = new System.Drawing.Point(14, 12);
             this.btnHourFormat.Name = "btnHourFormat";
-            this.btnHourFormat.Size = new System.Drawing.Size(99, 31);
+            this.btnHourFormat.Size = new System.Drawing.Size(109, 31);
             this.btnHourFormat.TabIndex = 8;
             this.btnHourFormat.Text = "24HR Format";
             this.btnHourFormat.UseVisualStyleBackColor = false;
@@ -2712,6 +2697,21 @@ namespace SevenSegmentClock
             this.button6.Tag = "";
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // btnCloseForm
+            // 
+            this.btnCloseForm.BackColor = System.Drawing.Color.LightPink;
+            this.btnCloseForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCloseForm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCloseForm.ForeColor = System.Drawing.Color.Black;
+            this.btnCloseForm.Location = new System.Drawing.Point(922, 12);
+            this.btnCloseForm.Name = "btnCloseForm";
+            this.btnCloseForm.Size = new System.Drawing.Size(57, 31);
+            this.btnCloseForm.TabIndex = 6;
+            this.btnCloseForm.Text = "Exit";
+            this.btnCloseForm.UseVisualStyleBackColor = false;
+            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2968,7 +2968,6 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button btnSec1D;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button btnBlinker;
-        private System.Windows.Forms.Button btnCloseForm;
         private System.Windows.Forms.Label labelMeridiemAM;
         private System.Windows.Forms.Button btnHourFormat;
         private System.Windows.Forms.Label labelMeridiemPM;
@@ -3118,6 +3117,7 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnCloseForm;
     }
 }
 
