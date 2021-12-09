@@ -12,16 +12,16 @@ namespace SevenSegmentClock
 {
     public partial class Form1 : Form
     {
-        Color RedOn = Color.Red;
-        Color RedOff = ColorTranslator.FromHtml("#261010");
+        Color RedOn = ColorTranslator.FromHtml("#ffff24");
+        Color RedOff = ColorTranslator.FromHtml("#d97193");
 
-        Color GreenOn = ColorTranslator.FromHtml("#09E21F");
-        Color GreenOff = ColorTranslator.FromHtml("#0B1A0D");
-        
-        Color BlueOn = ColorTranslator.FromHtml("#0E1EFF");
-        Color BlueOff = ColorTranslator.FromHtml("#101122");
+        Color GreenOn = ColorTranslator.FromHtml("#700000");
+        Color GreenOff = ColorTranslator.FromHtml("#d97193");
 
-        Color backgroundColor = Color.Black;
+        Color BlueOn = ColorTranslator.FromHtml("#00FFFF");
+        Color BlueOff = ColorTranslator.FromHtml("#d97193");
+
+        Color backgroundColor = Color.Transparent;
 
         int flag = 1;
         string hourFormat = "hh";
@@ -94,6 +94,7 @@ namespace SevenSegmentClock
             MonthNameController(monthName);
             DayDigitsController(dayDigits);
         }
+
 
         private void sevenSegment(int num, string indicator, string placeValue)
         {
@@ -782,12 +783,12 @@ namespace SevenSegmentClock
             if (hourFormat == "HH")
             {
                 hourFormat = "hh";
-                btnHourFormat.Text = "To 24hr Format";
+                btnHourFormat.Text = "24HR Format";
             } 
             else if (hourFormat == "hh")
             {
                 hourFormat = "HH";
-                btnHourFormat.Text = "To 12hr Format";
+                btnHourFormat.Text = "12HR Format";
             }
         }
 
