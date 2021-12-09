@@ -1495,5 +1495,10 @@ namespace SevenSegmentClock
         {
 
         }
+
+        private void labelMeridiemAM_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
