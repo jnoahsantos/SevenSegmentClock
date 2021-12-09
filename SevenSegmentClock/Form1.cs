@@ -804,14 +804,16 @@ namespace SevenSegmentClock
 
             List<Button> Monday = new List<Button>
             {
-                btn2M, btn2N, btn2O, btn2P, btn2A, btn2B, btn2Q, btn2U, btn2D, btn2E, btn2F, btn2G, btn2H, btn2I,
-                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P
+                btn1M, btn1N, btn1O, btn1P, btn1A, btn1B, btn1Q, btn1U, btn1D, btn1E, btn1F, btn1G, btn1H, btn1I,
+                btn2B, btn2C, btn2D, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
+                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P,
             };
 
             List<Button> Tuesday = new List<Button>
             {
-                btn2A, btn2B, btn2C, btn2D, btn2E, btn2Q, btn2U, btn2S, btn2K,
-                btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P
+                btn1A, btn1B, btn1C, btn1D, btn1E, btn1Q, btn1U, btn1S, btn1K,
+                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
+                btn3A, btn3B, btn3C, btn3D, btn3E, btn3I, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P, btn3T, btn3U,
             };
 
             List<Button> Wednesday = new List<Button>
@@ -830,8 +832,9 @@ namespace SevenSegmentClock
 
             List<Button> Friday = new List<Button>
             {
-                btn2A, btn2B, btn2C, btn2D, btn2E, btn2N, btn2O, btn2P, btn2T, btn2U, btn2M,
-                btn3A, btn3B, btn3C, btn3D, btn3F, btn3H, btn3M, btn3N, btn3O, btn3P, btn3T, btn3U, btn3I, btn3R
+                btn1A, btn1B, btn1C, btn1D, btn1E, btn1N, btn1O, btn1P, btn1T, btn1U, btn1M,
+                btn2A, btn2B, btn2C, btn2D, btn2F, btn2H, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2I, btn2R,
+                btn3C, btn3Q, btn3U, btn3S, btn3K,
             };
 
             List<Button> Saturday = new List<Button>
@@ -843,8 +846,9 @@ namespace SevenSegmentClock
 
             List<Button> Sunday = new List<Button>
             {
-                btn2B, btn2C, btn2D, btn2R, btn2H, btn2J, btn2K, btn2L, btn2T, btn2P, btn2E, btn2M, btn2U,
-                btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P
+                btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
+                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
+                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P,
             };
 
             switch (day)

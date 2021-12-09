@@ -752,7 +752,7 @@ namespace SevenSegmentClock
             this.btnBlinker.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnBlinker.FlatAppearance.BorderSize = 0;
             this.btnBlinker.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlinker.Location = new System.Drawing.Point(883, 311);
+            this.btnBlinker.Location = new System.Drawing.Point(885, 311);
             this.btnBlinker.Name = "btnBlinker";
             this.btnBlinker.Size = new System.Drawing.Size(15, 15);
             this.btnBlinker.TabIndex = 5;
